@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"learn/module1"
 	"learn/module2"
+	"learn/module5"
 )
 
 func main() {
@@ -27,7 +28,7 @@ func main() {
 	rev := module2.StringReverse("Hello")
 	fmt.Println("String reverse:", rev)
 
-	freqCounter := module2.MapFreqCounter("rohithhamitha")
+	freqCounter := module2.MapFreqCounter("rohith")
 	fmt.Println(freqCounter)
 
 	oddEven := module2.OddEven(3)
@@ -78,4 +79,8 @@ func main() {
 		out := module2.SliceAppend(slice, 11, 32, 54)
 		fmt.Println(out)
 	}
+
+	// module3.Run()
+	// module4.Run()
+	module5.Run()
 }
