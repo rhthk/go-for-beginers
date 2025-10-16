@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"learn/module1"
 	"learn/module2"
-	"learn/module5"
+	"learn/module7"
 )
 
 func main() {
@@ -82,5 +82,7 @@ func main() {
 
 	// module3.Run()
 	// module4.Run()
-	module5.Run()
+	// module5.Run()
+	// module6.Run()
+	module7.Run()
 }
